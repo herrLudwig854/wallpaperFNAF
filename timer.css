@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  background-image: url(files/mQnKH78.jpeg);
+  background-size: cover;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: 100;
+  top:
+}
+
+.sign-wrap-3 {
+    margin-top: 630px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.sign-wrap-3 .sign_word {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    animation: neon-3 8s steps(1, start) infinite reverse;
+}
+@keyframes neon-3 {
+    0%{
+        color: #0b3960;
+        text-shadow: 0 0 7px #0b3960, 0 0 8px #0b3960;
+    }
+    80%{
+        color: #fff;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    81%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    82%{color: #0b3960;
+        text-shadow: 0 0 7px #0b3960, 0 0 8px #0b3960;
+    }
+    83%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    84%{
+        color: #0b3960;
+        text-shadow: 0 0 7px #0b3960, 0 0 8px #0b3960;
+    }
+    85%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    100%{
+        color: #0b3960;
+        text-shadow: 0 0 7px #0b3960,0 0 8px #0b3960;
+    }
+}
+.countdown {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+  color: #FFFFCC;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.countdown-number {
+  padding: 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+#rock
+{
+background:
+       /* top, transparent black, faked with gradient */
+       linear-gradient(
+         rgba(0, 0, 0, 0.1),
+         rgba(0, 0, 0, 0.1)
+       ),
+       /* bottom, image */
+       url(files/rock.jpg);
+  background-size:cover;
+}
+#eat
+{
+  background:
+         /* top, transparent black, faked with gradient */
+         linear-gradient(
+           rgba(0, 0, 0, 0.1),
+           rgba(0, 0, 0, 0.1)
+         ),
+         /* bottom, image */
+         url(files/eat.jpg);
+    background-size:cover;
+  background-size:cover;
+}
+#party
+{
+  background:
+         /* top, transparent black, faked with gradient */
+         linear-gradient(
+           rgba(0, 0, 0, 0.15),
+           rgba(0, 0, 0, 0.15)
+         ),
+         /* bottom, image */
+         url(files/party.jpg);
+    background-size:cover;
+}
+#play
+{
+  background:
+         /* top, transparent black, faked with gradient */
+         linear-gradient(
+           rgba(0, 0, 0, 0.1),
+           rgba(0, 0, 0, 0.1)
+         ),
+         /* bottom, image */
+         url(files/play.jpg);
+    background-size:cover;
+}
+#steam{
+  text-align: left;
+	margin-top:30px;
+  font-size: 50%;
+}
+#steam .sign_word {
+  animation: neon-3 20s steps(1, start) infinite reverse;
+  font-size:  300%;
+}
+#steam a {
+  text-decoration: none;
+}
